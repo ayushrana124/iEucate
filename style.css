@@ -1,0 +1,525 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dosis&family=Kalam&family=ZCOOL+XiaoWei&display=swap');
+
+ * {
+     margin: 0px;
+     padding: 0px;
+ }
+
+ html {
+     scroll-behavior: smooth;
+ }
+
+ /* NAVIGATION BAR SECTION */
+
+ .navbar {
+     display: flex;
+     align-items: center;
+     position: sticky;
+     top: 0px;
+     cursor: pointer;
+     background-color: yellow;
+ }
+
+ .navlist {
+     list-style: none;
+     display: flex;
+     align-items: center;
+     width: 50%;
+ }
+
+ .logo img {
+     height: 33px;
+     width: 40px;
+     border-radius: 30px;
+     margin-left: 6px;
+ }
+
+ .navlist li {
+     margin: 5px 17px;
+     margin-bottom: 0px;
+ }
+
+ .navlist li a {
+
+     color: white;
+     text-decoration: none;
+     font-size: 1.1rem;
+     padding: 6px 10px;
+     padding-bottom: 0px;
+ }
+
+ .navlist li a:hover {
+     color: rgb(217, 224, 229);
+ }
+
+ .rightnav {
+     width: 50vw;
+     text-align: right;
+     height: 50px;
+ }
+
+ .rightnav input {
+     height: 27px;
+     width: 32%;
+     border-radius: 15px;
+     background-color: gainsboro;
+     border: none;
+     outline: none;
+     padding: 0px 15px;
+     margin: 15px 6px 0px 0px;
+     cursor: pointer;
+ }
+
+
+ .btn-sm {
+     width: 40px;
+     height: 30px;
+     background-color: rgb(110 140 193);
+     border: none;
+     border-radius: 15px;
+     color: white;
+     margin: 0px 17px 0px 0px;
+     cursor: pointer;
+ }
+
+ .background {
+     background: rgba(0, 0, 0, 0.7) url('images/bg.png');
+     background-size: cover;
+     background-blend-mode: multiply;
+ }
+
+
+ /* FIRST SECTION */
+
+ .firstsection {
+     height: 100vh;
+ }
+
+ .boxmain {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     max-width: 73%;
+     margin: auto;
+     height: 91vh;
+ }
+
+ .fhalf {
+     width: 92%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ .textbig {
+     font-size: 3rem;
+     margin: 17px 0px;
+     font-family: 'ZCOOL XiaoWei', serif;
+
+ }
+
+ .textsmall {
+     font-size: 17px;
+     padding: 15px 0px;
+     text-align: center;
+     font-family: 'Dosis', sans-serif;
+ }
+
+ .textsmallgrey {
+     color: rgb(251 244 244 / 96%);
+ }
+
+ .buttons {
+     display: block;
+     margin: 6px auto;
+
+ }
+
+ .btn {
+     padding: 5px 15px;
+     margin: 2px 7px;
+     border: none;
+     border-radius: 5px;
+     height: 29px;
+ }
+
+
+ .WV {
+     background: transparent;
+     color: white;
+     border: 1px solid white;
+     font-weight: bold;
+     cursor: pointer;
+
+ }
+
+ .WV:hover {
+     background-color: rgba(255, 255, 255, 0.234);
+ }
+
+ .WV:active {
+     height: 27px;
+     width: 107px;
+     font-size: 12px;
+
+ }
+
+ .subs {
+     background-color: rgb(239 48 48);
+     color: white;
+     width: 95px;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .subs:hover {
+     background-color: rgb(255, 76, 76);
+ }
+
+ .subs:active {
+     height: 27px;
+     width: 93px;
+     font-size: 0.7rem;
+ }
+
+ .shalf {
+     width: 30%;
+     margin: 0px 52px;
+ }
+
+ .shalf img {
+     height: 156px;
+     width: 163px;
+ }
+
+
+ /* SECTION RIGHT */
+
+ .secright {
+     height: 290px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     max-width: 80%;
+     margin: auto;
+ }
+
+ .imgfluid {
+     height: 160px;
+     border-radius: 19px;
+     width: 185px;
+ }
+
+ .right {
+     text-align: left;
+ }
+
+ .left {
+     margin-left: 31px;
+ }
+
+ .sectiontag {
+     font-size: 2rem;
+     margin: 3px;
+ }
+
+ .secleft {
+     height: 250px;
+     display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+     max-width: 80%;
+     margin: auto;
+ }
+
+ .leftsectiontag {
+     margin-left: 54px;
+ }
+
+
+ /* CONTACT FORM */
+
+ .contactform {
+     height: 424px;
+     background-color: aliceblue;
+ }
+
+ .heading {
+     font-size: 2rem;
+     text-align: center;
+ }
+
+ .box {
+     margin: 31px 0px;
+ }
+
+ .box label {
+     font-size: 17px;
+     font-family: 'Dosis', sans-serif;
+ }
+
+ .box input {
+     height: 27px;
+     width: 38%;
+     padding: 1px 13px;
+     margin-left: 4px;
+     border-radius: 6px;
+     outline: none;
+ }
+
+ .contacts {
+     text-align: center;
+     margin-top: 48px;
+ }
+
+ .submit {
+     background-color: rgb(40, 185, 243);
+     color: white;
+     font-weight: bold;
+ }
+
+ .submit:hover {
+     background-color: rgb(66, 138, 253);
+ }
+
+ .submit:active {
+     height: 27px;
+     width: 70px;
+     font-size: 0.7rem;
+ }
+
+
+ /* FOOTER */
+ footer {
+     height: 60px;
+     background-color: black;
+     color: white;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .burger {
+     position: absolute;
+     cursor: pointer;
+     right: 3%;
+     top: 14px;
+     display: none;
+ }
+
+ .line {
+     width: 28px;
+     background-color: white;
+     height: 2px;
+     margin: 5px 3px;
+ }
+ 
+  /* ADDING RESPONSIVENESS */
+ @media only screen and (max-width : 1050px) {
+     .navlist {
+         flex-direction: column;
+     }
+
+     .navbar {
+         flex-direction: column;
+         height: 285px;
+         transition: all 0.3s ease-out;
+     }
+
+     .rightnav {
+         width: 26vw;
+     }
+
+     .rightnav input {
+         height: 23px;
+         width: 41%;
+     }
+
+     .btn-sm {
+         width: 29px;
+         height: 26px;
+     }
+
+     .navlist li {
+         margin: 21px 17px;
+         margin-bottom: 2px;
+     }
+
+     .logo img {
+         margin-top: 10px;
+         height: 25px;
+         width: 34px;
+     }
+
+     .textsmall {
+         font-size: 15px;
+         padding: 10px 0px;
+     }
+
+     .textbig {
+         font-size: 2.8rem;
+         margin: 22px 0px;
+     }
+
+     .sectiontag {
+         font-size: 1.8rem;
+         margin: 0px 16px;
+     }
+
+     .burger {
+         display: block;
+     }
+
+     .h-nav {
+         height: 50px;
+     }
+
+     .v-class {
+         visibility: hidden;
+     }
+
+     .boxmain {
+         max-width: 80%;
+         height: 73vh;
+     }
+
+     .shalf img {
+         height: 133px;
+         width: 139px;
+     }
+
+     .heading {
+         font-size: 1.9rem;
+     }
+
+     .firstsection {
+         height: 72vh;
+     }
+
+     .shalf {
+         width: 15%;
+         margin: 0px 17px;
+     }
+ }
+
+ @media only screen and (max-width : 800px) {
+     .boxmain {
+         flex-direction: column-reverse;
+         height: 50vh;
+         max-width: 64%;
+     }
+
+     .shalf img {
+         height: 68px;
+         width: 95px;
+     }
+
+     .textbig {
+         font-size: 2rem;
+     }
+
+     .textsmall {
+         font-size: 12px;
+     }
+
+     .subs {
+         width: 76px;
+         font-size: 10px;
+     }
+
+     .WV {
+         width: 88px;
+         font-size: 10px;
+     }
+
+     .btn {
+         padding: 5px 5px;
+         height: 26px;
+     }
+
+     .firstsection {
+         height: 53vh;
+     }
+
+     .sectiontag {
+         font-size: 1.7rem;
+         margin: 0px 16px;
+     }
+
+     .secright {
+         flex-direction: column-reverse;
+         height: 300px;
+         width: auto;
+     }
+
+     .secleft {
+         flex-direction: column;
+         height: 300px;
+         width: auto;
+     }
+
+     .left {
+         margin-left: 0px;
+     }
+
+     .imgfluid {
+         height: 144px;
+         width: 171px;
+     }
+
+     #contentContainer {
+         margin-top: 18px;
+     }
+ }
+
+ @media only screen and (max-width : 550px) {
+     .secleft {
+         height: 356px;
+     }
+
+     .secright {
+         height: 356px;
+     }
+
+     .textbig {
+         font-size: 1.66rem;
+     }
+
+     .sectiontag {
+         font-size: 1.4rem;
+     }
+
+     .textsmall {
+         font-size: 11px;
+     }
+
+     .boxmain {
+         max-width: 86%
+     }
+
+     .shalf img {
+         height: 47px;
+         width: 68px;
+     }
+     .box label {
+        font-size: 13px;
+    }
+    .box input {
+        height: 20px;
+ }
+ .contactform {
+    height: 290px;
+ }
+ footer{
+    font-size : 10px;
+    width : auto;
+    height : 46px;
+ }
+ .contacts{
+    margin-top :auto;
+ }
+ .box {
+    margin: 23px 0px;
+}
+}
